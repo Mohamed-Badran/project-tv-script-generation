@@ -1,16 +1,9 @@
 # project-tv-script-generation
 
-Project Overview
-This repository hosts code used in third project on Recurrent Neural Networks (RNN) project in the Deep Learning Nanodegree.
+Udacity Deep Learning nanodegree TV Script generation project
 
-The aim is to generate Seinfeld TV scripts using RNNs using Seinfeld dataset of scripts from 9 seasons. The Neural Network built generates a new, "fake" TV script.
+Introduction In this project, you'll generate your own Seinfeld TV scripts using RNNs. You'll be using a Seinfeld dataset of scripts from 9 seasons. The Neural Network you'll build will generate a new, "fake" TV script.
 
-Getting started
-Open the tv_script_generation.ipynb on a GPU enabled Python notebook environment, or Google colab (a link is directly on top in the notebook file). The notebook consists of further technical details. Run the notebook to generate your own unique script.
+Getting the project files The project files can be found in our public GitHub repo, in the project-tv-script-generation folder. You can download the files from there, but it's better to clone the repository to your computer using:
 
-Further improvemets
- Add validation data to choose the best model
- Initialize model weights, especially the weights of the embedded layer to encourage model convergence
- Use topk sampling to generate new words.
- Generate music like DeepBach.
- Predict seizures in intracranial EEG recordings on Kaggle.
+git clone https://github.com/udacity/deep-learning-v2-pytorch.git This way you can stay up to date with any changes we make by pulling the changes to your local repository with git pull.
